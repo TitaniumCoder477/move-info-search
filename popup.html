@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #357ae8;
+    }
+    h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Movie Info Search</h2>
+  <input type="text" id="movieTitle" placeholder="Enter movie title" autofocus />
+  <button id="searchBtn">Search on Brave</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
