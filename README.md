@@ -53,4 +53,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ for quick movie lookups.
+Made with ❤️  using Grok for quick movie lookups.
